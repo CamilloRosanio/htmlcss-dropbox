@@ -258,6 +258,52 @@ ul.list_custom2 {
 }
 
 
+/* # SEZIONE ENTERPRISE */
+
+.macro-section.enterprise{
+    padding-top: 0;
+}
+
+.enterprise .column {
+    flex: 1 0 100%;
+
+    display:flex;
+    flex-direction: column;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.enterprise .column .header p {
+    padding: 5px 0;
+    vertical-align: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.single-column .header {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.enterprise .sub-column {
+    display: flex;
+    gap: 20px;
+}
+
+.enterprise .content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enterprise .sub1 {
+    flex: 1 0 65%;
+}
+
+.enterprise .sub2 {
+    flex: 1 0 28%;
+}
+
+
 /* # FOOTER ----------------------------------- */
 
 footer {
