@@ -93,7 +93,11 @@ p {
 /* # HERO */
 
 .hero {
-    background-color: rgb(176, 201, 255);
+    background-image: linear-gradient(rgb(176, 201, 255) 85%, white 85%);
+    
+    /* background-color: rgb(176, 201, 255); */
+    /* variante con margine negativo */
+
     padding: 40px 0;
 }
 
@@ -105,6 +109,9 @@ p {
     display:flex;
     gap:40px;
     justify-content: space-between;
+
+    /* margin-bottom: -15%; */
+    /* variante con margine negativo */
 }
 
 .hero_content .content {
@@ -114,6 +121,10 @@ p {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+}
+
+#hero_arrow {
+    font-size:5rem;
 }
 
 .hero_content > .img_container {
