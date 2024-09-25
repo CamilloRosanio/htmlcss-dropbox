@@ -1,5 +1,13 @@
 /* # DA REVISIONARE 
-1) menu fixed non sovrapposto alla Hero
+
+1) NAV-BAR: menu fixed non sovrapposto alla Hero
+
+2) FATTURAZIONE: selettore fatturazione tondo, riprodurre  design
+
+3) FATTURAZIONE: icone lista ul personalizzate
+
+4) FATTURAZIONE: <br/> senza che si estenda per tutta la row
+
 */
 
 /* # FONT ----------------------------------- */
@@ -57,6 +65,20 @@ p {
     color:rgb(15, 15, 15);
 }
 
+/* .selection_rounded {
+    border: 1px solid rgb(0, 78, 224);
+} */
+
+.column-3x {
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.macro-section {
+    padding: 50px 0;
+}
+
 
 /* # NAV-BAR ----------------------------------- */
 
@@ -103,7 +125,7 @@ p {
 }
 
 
-/* # HERO */
+/* # HERO ----------------------------------- */
 
 .hero {
     background-image: linear-gradient(rgb(176, 201, 255) 85%, white 85%);
@@ -157,6 +179,82 @@ p {
 
 main .container {
     width: 850px;
+}
+
+
+/* SEZIONE FATTURAZIONE */
+
+.fatturazione .selection_inline {
+    display:flex;
+    gap:50px;
+    padding:40px 0;
+}
+
+.selection_inline > .selection {
+    display: flex;
+    gap: 10px;
+    vertical-align: center;
+}
+
+.fatturazione .column {
+    flex: 1 0 28%;
+
+    display:flex;
+    flex-direction: column;
+    border: 1px solid rgb(204, 204, 204);
+
+    /* # DEBUG */
+    /* background-color: coral;
+    border: 1px dashed red; */
+}
+
+.fatturazione .column .header p {
+    padding: 5px 0;
+    vertical-align: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.fatturazione .column .content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fatturazione ul {
+    list-style-type: none;
+    line-height: 1.2em;
+    
+    margin-left:0;
+    padding-left:0;
+}
+
+.fatturazione li {
+    font-size: .8rem;
+    color: rgb(54, 54, 54);
+}
+
+
+/* # CUSTOM LIST BULLETS 1*/
+
+.list_custom1, .li1::before {
+    content: "*** ";
+}
+
+.list_custom1, .li2::before {
+    content: "*** ";
+}
+
+.list_custom1, .li3::before {
+    content: "*** ";
+}
+
+
+/* # CUSTOM LIST BULLETS 2*/
+
+ul.list_custom2 {
+    list-style-type: "///";
 }
 
 
