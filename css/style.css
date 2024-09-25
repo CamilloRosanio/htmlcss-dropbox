@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-    font-size:1.3rem;
+    font-size:1.2rem;
     color:rgb(15, 15, 15);
     font-weight: 700;
 }
@@ -137,7 +137,7 @@ p {
 }
 
 #hero_arrow {
-    font-size:5rem;
+    font-size:4rem;
 }
 
 .hero_content > .img_container {
@@ -164,17 +164,19 @@ main .container {
 
 footer {
     background-color: black;
-    padding: 100px 0;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 footer .multi-column {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-bottom: 50px;
+    padding-bottom: 80px;
 
     /* # DEBUG */
-    background-color: coral;
+    /* background-color: coral; */
+    /* border-bottom: 2px dashed red; */
 }
 
 .multi-column > .column {
@@ -200,6 +202,21 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+.language-selection {
+    width:10%;
+    font-size: 0.8em;
+    color:rgb(180, 180, 180);
+    padding-top:40px;
+    border-top: 1px solid white;
+}
+
+
+
+
+
+
+
 
 
 /* # DEBUG ----------------------------------- */
