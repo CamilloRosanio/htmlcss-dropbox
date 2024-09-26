@@ -607,12 +607,9 @@ footer a {
 
 /* AZIONE CHECKBOX */
 
-.checkbox_action {
+/* .checkbox_action {
     display:flex;
     gap:40px;
-    
-    /* # DEBUG */
-    background-color: yellow;
 }
 
 [name="plan-type"] {
@@ -621,4 +618,4 @@ footer a {
 
 [name="plan-type"]:checked + label {
     background-color: red;
-}
+} */
