@@ -413,14 +413,15 @@ ul.list_custom2 {
 
 .faq h2 {
     width: 100%;
-    padding: 50px 0;
+    padding-bottom: 30px;
     border-bottom: 1px solid rgb(204, 204, 204);
+    margin-bottom: 0;
 }
 
 .q-a {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding: 30px 0;
     border-bottom: 1px solid rgb(204, 204, 204);
 }
 
