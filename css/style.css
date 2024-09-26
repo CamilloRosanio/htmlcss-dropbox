@@ -374,6 +374,64 @@ ul.list_custom2 {
 }
 
 
+/* SEZIONE BRAND */
+
+.macro-section.brand {
+    margin-bottom: 0;
+
+    /* # DEBUG */
+    background-color: coral;
+}
+
+.brand-flex {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.brand-flex .col {
+    width: calc(100vw / 3);
+
+    /* SOLUZIONE vw pari a vh */
+    /* height: calc(100vw / 3); */
+
+    /* SOLUZIONE aspect-ratio */
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap:wrap;
+
+    /* # DEBUG */
+    border: 1px dashed black;
+}
+
+.brand .brand-img {
+    width: 50%;
+    aspect-ratio: 1;
+    overflow: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    /* # DEBUG */
+    border: 1px solid red;
+}
+
+.brand-img.white {
+    color: white;
+    fill: white;
+}
+
+svg {
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    color: currentColor;
+}
+
+
 /* SEZIONE FREE TRIAL */
 
 .macro-section.free-trial {
@@ -416,6 +474,10 @@ ul.list_custom2 {
     padding-bottom: 30px;
     border-bottom: 1px solid rgb(204, 204, 204);
     margin-bottom: 0;
+}
+
+.faq a {
+    text-decoration: none;
 }
 
 .q-a {
