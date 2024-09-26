@@ -1,4 +1,4 @@
-/* # DA REVISIONARE 
+/* # DA REVISIONARE
 
 1) NAV-BAR: menu fixed non sovrapposto alla Hero
 
@@ -137,7 +137,7 @@ p {
 
 .hero {
     background-image: linear-gradient(rgb(176, 201, 255) 85%, white 85%);
-    
+
     /* background-color: rgb(176, 201, 255); */
     /* variante con margine negativo */
 
@@ -159,7 +159,7 @@ p {
 
 .hero_content .content {
     flex: 1 0 28%;
-    
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -233,7 +233,7 @@ main .container {
 .fatturazione ul {
     list-style-type: none;
     line-height: 1.2em;
-    
+
     margin-left:0;
     padding-left:0;
 }
@@ -330,7 +330,7 @@ ul.list_custom2 {
 
 .partner .content {
     flex: 1 0 33%;
-    
+
     display: flex;
     flex-direction: column;
     gap:20px;
@@ -377,7 +377,7 @@ ul.list_custom2 {
 /* SEZIONE BRAND */
 
 .macro-section.brand {
-    margin-bottom: 0;
+    padding-bottom: 0;
 
     /* # DEBUG */
     /* background-color: coral; */
@@ -597,4 +597,28 @@ footer a {
     color:rgb(180, 180, 180);
     padding-top:40px;
     border-top: 1px solid white;
+}
+
+
+
+
+
+
+
+/* AZIONE CHECKBOX */
+
+.checkbox_action {
+    display:flex;
+    gap:40px;
+    
+    /* # DEBUG */
+    background-color: yellow;
+}
+
+[name="plan-type"] {
+    display:none;
+}
+
+[name="plan-type"]:checked + label {
+    background-color: red;
 }
