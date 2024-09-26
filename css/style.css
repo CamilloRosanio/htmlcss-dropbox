@@ -42,7 +42,7 @@ body {
     padding: 7px 15px;
 }
 
-.button_main, .light {
+.button_main.light {
     background-color: transparent;
     color: rgb(15, 15, 15);
     border: 1px solid rgb(15, 15, 15);
@@ -58,6 +58,7 @@ h2 {
     font-size:1.8rem;
     color:rgb(15, 15, 15);
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 h3 {
@@ -79,6 +80,7 @@ p {
     display:flex;
     gap:20px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .macro-section {
@@ -193,7 +195,7 @@ main .container {
 .fatturazione .selection_inline {
     display:flex;
     gap:50px;
-    padding:40px 0;
+    margin-bottom:50px;
 }
 
 .selection_inline > .selection {
@@ -336,6 +338,40 @@ ul.list_custom2 {
 }
 
 
+/* SEZIONE OPERATIONS */
+
+.operations .column {
+    flex: 1 0 28%;
+
+    display:flex;
+    flex-direction: column;
+
+    /* # DEBUG */
+    /* background-color: coral;
+    border: 1px dashed red; */
+}
+
+.operations img {
+    width:100%;
+    display: block;
+    margin-bottom:20px;
+}
+
+.operations h3 {
+    margin-bottom: 20px;
+}
+
+
+/* SEZIONE 500K TEAMS */
+
+.t500k h2 {
+    margin: 50px 0;
+}
+
+.t500k a {
+    font-size:.8rem;
+    margin-bottom:50px;
+}
 
 
 /* # FOOTER ----------------------------------- */
